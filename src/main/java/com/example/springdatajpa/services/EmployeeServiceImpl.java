@@ -18,7 +18,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Override
 	public List<EmployeeDetails> findAll() {
 		System.out.println("FindAll method calling.......");
-		return employeeRepository.findAll();
+		 
+		List<EmployeeDetails> details = employeeRepository.findAll();
+		return details;
 	}
 	@Override
 	public EmployeeDetails  findByEmployeeId(String empId) {
