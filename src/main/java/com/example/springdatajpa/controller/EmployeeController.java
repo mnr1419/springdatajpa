@@ -19,7 +19,10 @@ import com.example.springdatajpa.domain.EmployeeDetails;
 import com.example.springdatajpa.errorreponse.SuccessResponse;
 import com.example.springdatajpa.services.EmployeeService;
 import com.example.springdatajpa.services.exception.EmployeeNotFoundException;
-
+/*
+ * How to add lombok plugin to eclipse . Please follow below steps in url 
+https://www.baeldung.com/lombok-ide
+*/
 @RestController
 @CrossOrigin(origins = {"http://localhost:3000"},allowedHeaders = "*",maxAge = 3600)
 public class EmployeeController {

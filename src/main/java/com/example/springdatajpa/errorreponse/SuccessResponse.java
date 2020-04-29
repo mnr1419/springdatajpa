@@ -1,9 +1,14 @@
 package com.example.springdatajpa.errorreponse;
 
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter @Setter
 public class SuccessResponse {
 	private String successCode;
 	private String successMessage;
-	public String getSuccessCode() {
+	
+	/*public String getSuccessCode() {
 		return successCode;
 	}
 	public void setSuccessCode(String successCode) {
@@ -14,6 +19,6 @@ public class SuccessResponse {
 	}
 	public void setSuccessMessage(String successMessage) {
 		this.successMessage = successMessage;
-	}
+	}*/
 	
 }
